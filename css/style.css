@@ -589,9 +589,7 @@ footer .container {
     padding-bottom: 27px;
   }
 
-  .hero p,
-  .hero__subtitle,
-  .hero__title .small--text {
+ .small--text {
     font-size: 28px;
     font-weight: normal;
   }
@@ -751,6 +749,54 @@ footer .container {
 
   .container {
     padding: 0 20px;
+  }
+
+  .hero__title {
+    font-size: 2.7em;
+  }
+
+  .hero__subtitle {
+    font-size: 1.5em;
+  }
+
+  .nav__menu {
+    padding: 30px 20px 72px;
+  }
+
+  .banner__img {
+    padding: 20px 15px 12px;
+    font-size: 1.2em;
+  }
+
+  .events__location {
+    padding: 14px 24px 14px 47px;
+    font-size: 1em;
+  }
+
+  .events__content {
+    padding: 0 15px 30px;
+  }
+
+  .btn {
+    padding: 16px 12px;
+  }
+
+  .slider {
+    padding: 15px 0;
+  }
+
+  footer {
+    padding: 22px 0 30px;
+  }
+  
+  footer .container,
+  .social {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  footer p {
+    margin-bottom: 10px;
   }
 }
 
